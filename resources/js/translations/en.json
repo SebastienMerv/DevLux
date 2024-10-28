@@ -1,15 +1,15 @@
 {
     "header": {
-        "title": "Trouvez le développeur parfait pour votre projet",
+        "title": "Find the perfect developer for your project",
         "subtitle": "We connect businesses with top developers to collaborate on software development projects."
     },
     "our_developers": {
-        "title": "Faites la rencontre de nos développeurs certifiés 😎\n",
+        "title": "Meet our certified developers 😎\n",
         "subtitle": "We make it a point of honor to offer you the best developers for your development projects.\n\n"
     },
     "actions": {
         "get_started": "Get started",
-        "learn_more": "En savoir plus",
+        "learn_more": "Learn more",
         "login": "Login"
     },
     "navigation": {
@@ -24,8 +24,8 @@
         "forgot_password": "Forgot your password?",
         "login": "Login",
         "or_continue_with": "Or continue with",
-        "invalid_credentials": "Les informations d'identification fournies sont incorrectes.",
-        "error": "Erreur lors de la connexion"
+        "invalid_credentials": "The credentials provided are incorrect.",
+        "error": "Error while connecting"
     },
     "placeholders": {
         "email": "Email",
