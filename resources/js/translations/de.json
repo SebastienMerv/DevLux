@@ -1,0 +1,60 @@
+{
+    "header": {
+        "title": "Finden Sie den perfekten Entwickler für Ihr Projekt",
+        "subtitle": "Wir verbinden Unternehmen mit Top-Entwicklern, um bei Softwareentwicklungsprojekten zusammenzuarbeiten."
+    },
+    "our_developers": {
+        "title": "Lernen Sie unsere zertifizierten Entwickler kennen 😎\n",
+        "subtitle": "Wir sind stolz darauf, Ihnen die besten Entwickler für Ihre Softwareentwicklungsprojekte zur Verfügung zu stellen.\n\n"
+    },
+    "actions": {
+        "get_started": "Zum Starten",
+        "learn_more": "Erfahren Sie mehr",
+        "login": "Einloggen"
+    },
+    "navigation": {
+        "home": "Willkommen",
+        "our_developers": "Unsere Entwickler"
+    },
+    "sign": {
+        "login_to_your_account": "Einloggen",
+        "dont_have_an_account": "Sie haben noch kein Konto?",
+        "create_account": "Ein Konto erstellen",
+        "remember_me": "Erinnere dich an mich",
+        "forgot_password": "Passwort vergessen?",
+        "login": "Einloggen",
+        "or_continue_with": "Oder fahren Sie fort mit",
+        "invalid_credentials": "Die angegebenen Anmeldeinformationen sind falsch.",
+        "error": "Fehler beim Verbinden"
+    },
+    "placeholders": {
+        "email": "E-Mail-Adresse",
+        "password": "Passwort"
+    },
+    "stats": {
+        "developers_on_platform": "Entwickler auf der Plattform",
+        "projects_completed": "Abgeschlossene Projekte",
+        "happy_clients": "Zufriedene Kunden"
+    },
+    "admin": {
+        "navigation": {
+            "dashboard": "Tableau de bord",
+            "discover": "Découvrir"
+        },
+        "last_days": "{days} derniers jours",
+        "stats": {
+            "projects": "Projets",
+            "euro_earned": "Euros gagnés",
+            "clients": "Clients",
+            "tasks": "Tâches"
+        },
+        "projects": "Projets",
+        "projects_description": "Voyez la liste de vos projets pour vos clients.",
+        "name": "Nom",
+        "client": "Client",
+        "status": "Statut",
+        "edit": "Modifier",
+        "title": "Titre",
+        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
+    }
+}
