@@ -1,0 +1,37 @@
+{
+    "header": {
+        "title": "Trouvez le développeur parfait pour votre projet",
+        "subtitle": "Devlux connecte les entreprises avec les meilleurs développeurs pour collaborer sur des projets de développement de logiciels."
+    },
+    "our_developers": {
+        "title": "Faites la rencontre de nos développeurs certifiés 😎\n",
+        "subtitle": "DevLux mets un point d'honneur à vous proposer les meilleurs développeurs pour vos projets de développement de logiciels.\n\n"
+    },
+    "actions": {
+        "get_started": "Commencer",
+        "learn_more": "En savoir plus",
+        "login": "Se connecter"
+    },
+    "navigation": {
+        "home": "Accueil",
+        "our_developers": "Nos développeurs"
+    },
+    "sign": {
+        "login_to_your_account": "Connectez-vous à votre compte",
+        "dont_have_an_account": "Vous n'avez pas de compte ?",
+        "create_account": "Créer un compte",
+        "remember_me": "Se souvenir de moi",
+        "forgot_password": "Mot de passe oublié ?",
+        "login": "Se connecter",
+        "or_continue_with": "Ou continuez avec"
+    },
+    "placeholders": {
+        "email": "Adresse e-mail",
+        "password": "Mot de passe"
+    },
+    "stats": {
+        "developers_on_platform": "Développeurs sur la plateforme",
+        "projects_completed": "Projets terminés",
+        "happy_clients": "Clients satisfaits"
+    }
+}
