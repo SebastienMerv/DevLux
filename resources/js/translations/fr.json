@@ -35,5 +35,26 @@
         "developers_on_platform": "Développeurs sur la plateforme",
         "projects_completed": "Projets terminés",
         "happy_clients": "Clients satisfaits"
+    },
+    "admin": {
+        "navigation": {
+            "dashboard": "Tableau de bord",
+            "discover": "Découvrir"
+        },
+    "last_days": "{days} derniers jours",
+        "stats": {
+            "projects": "Projets",
+            "euro_earned": "Euros gagnés",
+            "clients": "Clients",
+            "tasks": "Tâches"
+        },
+        "projects": "Projets",
+        "projects_description": "Voyez la liste de vos projets pour vos clients.",
+        "name": "Nom",
+        "client": "Client",
+        "status": "Statut",
+        "edit": "Modifier",
+        "title": "Titre",
+        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
     }
 }

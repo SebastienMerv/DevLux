@@ -7,13 +7,15 @@ import { createPinia } from 'pinia'
 const pinia = createPinia()
 
 import fr from './translations/fr.json'
+import en from './translations/en.json'
 
 const app = createApp(App);
 
 const i18n = createI18n({
     locale: 'fr', // Langue par défaut
     messages: {
-        fr: fr
+        fr: fr,
+        en: en
     },
 });
 

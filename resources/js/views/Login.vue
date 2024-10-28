@@ -3,6 +3,8 @@ import {ref} from 'vue';
 import {useNotificationStore} from '@/stores/notificationStore';
 import Notification from "@/components/Notification.vue";
 import {useI18n} from "vue-i18n";
+import router from "@/router.js";
+import {useRouter} from "vue-router";
 
 const {t} = useI18n();
 
@@ -24,7 +26,9 @@ async function login(email, password) {
 
     const data = await response.json();
     if (response.status === 200) {
-        console.log(data);
+        localStorage.setItem('token', data.token);
+        localStorage.setItem('user', JSON.stringify(data.user));
+        router.push({name: 'dashboard'});
     } else {
         notificationStore.showNotification({
             title: t('sign.error'),
