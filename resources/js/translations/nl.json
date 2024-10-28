@@ -1,0 +1,60 @@
+{
+    "header": {
+        "title": "Vind de perfecte ontwikkelaar voor uw project",
+        "subtitle": "Wij verbinden bedrijven met topontwikkelaars om samen te werken aan softwareontwikkelingsprojecten."
+    },
+    "our_developers": {
+        "title": "Maak kennis met onze gecertificeerde ontwikkelaars 😎\n",
+        "subtitle": "Wij zijn er trots op dat we u de beste ontwikkelaars voor uw softwareontwikkelingsprojecten kunnen bieden.\n\n"
+    },
+    "actions": {
+        "get_started": "Om op te starten",
+        "learn_more": "Meer informatie",
+        "login": "Inloggen"
+    },
+    "navigation": {
+        "home": "Thuis",
+        "our_developers": "Onze ontwikkelaars"
+    },
+    "sign": {
+        "login_to_your_account": "Log in op uw account",
+        "dont_have_an_account": "Heeft u geen account?",
+        "create_account": "Maak een account aan",
+        "remember_me": "Onthoud mij",
+        "forgot_password": "Wachtwoord vergeten?",
+        "login": "Inloggen",
+        "or_continue_with": "Of ga verder met",
+        "invalid_credentials": "De opgegeven inloggegevens zijn onjuist.",
+        "error": "Fout bij verbinden"
+    },
+    "placeholders": {
+        "email": "E-mailadres",
+        "password": "Wachtwoord"
+    },
+    "stats": {
+        "developers_on_platform": "Ontwikkelaars op het platform",
+        "projects_completed": "Voltooide projecten",
+        "happy_clients": "Tevreden klanten"
+    },
+    "admin": {
+        "navigation": {
+            "dashboard": "Tableau de bord",
+            "discover": "Découvrir"
+        },
+        "last_days": "{days} derniers jours",
+        "stats": {
+            "projects": "Projets",
+            "euro_earned": "Euros gagnés",
+            "clients": "Clients",
+            "tasks": "Tâches"
+        },
+        "projects": "Projets",
+        "projects_description": "Voyez la liste de vos projets pour vos clients.",
+        "name": "Nom",
+        "client": "Client",
+        "status": "Statut",
+        "edit": "Modifier",
+        "title": "Titre",
+        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
+    }
+}
