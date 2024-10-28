@@ -38,23 +38,23 @@
     },
     "admin": {
         "navigation": {
-            "dashboard": "Tableau de bord",
-            "discover": "Découvrir"
+            "dashboard": "Armaturenbrett",
+            "discover": "entdecken"
         },
-        "last_days": "{days} derniers jours",
+        "last_days": "{jours} Letzte Tage",
         "stats": {
-            "projects": "Projets",
-            "euro_earned": "Euros gagnés",
-            "clients": "Clients",
-            "tasks": "Tâches"
+            "projects": "Projekte",
+            "euro_earned": "Euro gewonnen",
+            "clients": "Kunden",
+            "tasks": "Aufgaben"
         },
-        "projects": "Projets",
-        "projects_description": "Voyez la liste de vos projets pour vos clients.",
-        "name": "Nom",
-        "client": "Client",
-        "status": "Statut",
-        "edit": "Modifier",
-        "title": "Titre",
-        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
+        "projects": "Projekte",
+        "projects_description": "Sehen Sie sich die Liste Ihrer Projekte für Ihre Kunden an.",
+        "name": "Name",
+        "client": "Kunde",
+        "status": "Status",
+        "edit": "Zu ändern",
+        "title": "Titel",
+        "discover_project_of_your_clients": "Entdecken Sie die Projekte Ihrer Kunden"
     }
 }
