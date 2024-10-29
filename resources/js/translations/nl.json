@@ -25,7 +25,8 @@
         "login": "Inloggen",
         "or_continue_with": "Of ga verder met",
         "invalid_credentials": "De opgegeven inloggegevens zijn onjuist.",
-        "error": "Fout bij verbinden"
+        "error": "Fout bij verbinden",
+        "loading": "Connexion en cours..."
     },
     "placeholders": {
         "email": "E-mailadres",
@@ -42,6 +43,7 @@
             "dashboard": "Dashboard",
             "discover": "Dashboard"
         },
+        "open": "Ouvrir",
         "last_days": "{days} laatste dagen",
         "stats": {
             "projects": "Projecten",
@@ -56,6 +58,24 @@
         "status": "Status",
         "edit": "Wijzigen",
         "title": "Titel",
-        "discover_project_of_your_clients": "Ontdek de projecten van uw klanten"
-    }
+        "discover_project_of_your_clients": "Ontdek de projecten van uw klanten",
+        "your_profile": "Votre profil",
+        "logout": "Déconnexion",
+        "your_profile_description": "Voyez et modifiez les informations de votre profil.",
+        "about_description": "Entrez une description à propos de vous.",
+        "photo": "Photo",
+        "change_picture": "Changer la photo",
+        "personal_information": "Informations personnelles",
+        "personal_information_description": "Modifiez vos informations personnelles."
+    },
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email_address": "Adresse e-mail",
+    "country": "Pays",
+    "street_address": "Adresse",
+    "city": "Ville",
+    "zip_code": "Code postal",
+    "state": "Province",
+    "cancel": "Annuler",
+    "save": "Enregistrer"
 }
