@@ -34,7 +34,8 @@
     "stats": {
         "developers_on_platform": "Ontwikkelaars op het platform",
         "projects_completed": "Voltooide projecten",
-        "happy_clients": "Tevreden klanten"
+        "happy_clients": "Tevreden klanten",
+        "hours_worked": "Heures travaillées"
     },
     "admin": {
         "navigation": {
