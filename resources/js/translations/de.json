@@ -25,7 +25,8 @@
         "login": "Einloggen",
         "or_continue_with": "Oder fahren Sie fort mit",
         "invalid_credentials": "Die angegebenen Anmeldeinformationen sind falsch.",
-        "error": "Fehler beim Verbinden"
+        "error": "Fehler beim Verbinden",
+        "loading": "Connexion en cours..."
     },
     "placeholders": {
         "email": "E-Mail-Adresse",
@@ -42,6 +43,7 @@
             "dashboard": "Armaturenbrett",
             "discover": "entdecken"
         },
+        "open": "Ouvrir",
         "last_days": "{jours} Letzte Tage",
         "stats": {
             "projects": "Projekte",
@@ -56,6 +58,24 @@
         "status": "Status",
         "edit": "Zu ändern",
         "title": "Titel",
-        "discover_project_of_your_clients": "Entdecken Sie die Projekte Ihrer Kunden"
-    }
+        "discover_project_of_your_clients": "Entdecken Sie die Projekte Ihrer Kunden",
+        "your_profile": "Votre profil",
+        "logout": "Déconnexion",
+        "your_profile_description": "Voyez et modifiez les informations de votre profil.",
+        "about_description": "Entrez une description à propos de vous.",
+        "photo": "Photo",
+        "change_picture": "Changer la photo",
+        "personal_information": "Informations personnelles",
+        "personal_information_description": "Modifiez vos informations personnelles."
+    },
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email_address": "Adresse e-mail",
+    "country": "Pays",
+    "street_address": "Adresse",
+    "city": "Ville",
+    "zip_code": "Code postal",
+    "state": "Province",
+    "cancel": "Annuler",
+    "save": "Enregistrer"
 }
