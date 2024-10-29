@@ -8,16 +8,25 @@ const pinia = createPinia()
 
 import fr from './translations/fr.json'
 import en from './translations/en.json'
+import de from './translations/de.json'
+import nl from './translations/nl.json'
 
 const app = createApp(App);
 
+
+const navigatorLang = navigator.language.split('-')[0];
+
 const i18n = createI18n({
-    locale: 'fr', // Langue par défaut
+    locale: navigatorLang, // Langue par défaut
     messages: {
         fr: fr,
-        en: en
+        en: en,
+        de: de,
+        nl: nl,
     },
 });
+
+// Définir le language par rapport à la langue du navigateur
 
 // Use the router
 app.use(router).use(i18n).use(pinia).mount('#app');
