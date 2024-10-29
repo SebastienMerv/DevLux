@@ -34,7 +34,8 @@
     "stats": {
         "developers_on_platform": "Developers on platform",
         "projects_completed": "Projects completed",
-        "happy_clients": "Happy clients"
+        "happy_clients": "Happy clients",
+        "hours_worked": "Heures travaillées"
     },
     "admin": {
         "navigation": {
