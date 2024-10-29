@@ -25,7 +25,8 @@
         "login": "Se connecter",
         "or_continue_with": "Ou continuez avec",
         "invalid_credentials": "Les informations d'identification fournies sont incorrectes.",
-        "error": "Erreur lors de la connexion"
+        "error": "Erreur lors de la connexion",
+        "loading": "Connexion en cours..."
     },
     "placeholders": {
         "email": "Adresse e-mail",
@@ -42,6 +43,7 @@
             "dashboard": "Tableau de bord",
             "discover": "Découvrir"
         },
+        "open": "Ouvrir",
     "last_days": "{days} derniers jours",
         "stats": {
             "projects": "Projets",
@@ -56,6 +58,24 @@
         "status": "Statut",
         "edit": "Modifier",
         "title": "Titre",
-        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
-    }
+        "discover_project_of_your_clients": "Découvrez les projets de vos clients",
+        "your_profile": "Votre profil",
+        "logout": "Déconnexion",
+        "your_profile_description": "Voyez et modifiez les informations de votre profil.",
+        "about_description": "Entrez une description à propos de vous.",
+        "photo": "Photo",
+        "change_picture": "Changer la photo",
+        "personal_information": "Informations personnelles",
+        "personal_information_description": "Modifiez vos informations personnelles."
+    },
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email_address": "Adresse e-mail",
+    "country": "Pays",
+    "street_address": "Adresse",
+    "city": "Ville",
+    "zip_code": "Code postal",
+    "state": "Province",
+    "cancel": "Annuler",
+    "save": "Enregistrer"
 }
