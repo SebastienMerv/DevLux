@@ -26,7 +26,7 @@
         "or_continue_with": "Of ga verder met",
         "invalid_credentials": "De opgegeven inloggegevens zijn onjuist.",
         "error": "Fout bij verbinden",
-        "loading": "Connexion en cours..."
+        "loading": "Verbinding wordt uitgevoerd..."
     },
     "placeholders": {
         "email": "E-mailadres",
@@ -36,14 +36,14 @@
         "developers_on_platform": "Ontwikkelaars op het platform",
         "projects_completed": "Voltooide projecten",
         "happy_clients": "Tevreden klanten",
-        "hours_worked": "Heures travaillées"
+        "hours_worked": "Uren gewerkt"
     },
     "admin": {
         "navigation": {
             "dashboard": "Dashboard",
             "discover": "Dashboard"
         },
-        "open": "Ouvrir",
+        "open": "Open",
         "last_days": "{days} laatste dagen",
         "stats": {
             "projects": "Projecten",
@@ -59,27 +59,27 @@
         "edit": "Wijzigen",
         "title": "Titel",
         "discover_project_of_your_clients": "Ontdek de projecten van uw klanten",
-        "your_profile": "Votre profil",
-        "logout": "Déconnexion",
-        "your_profile_description": "Voyez et modifiez les informations de votre profil.",
-        "about_description": "Entrez une description à propos de vous.",
-        "photo": "Photo",
-        "change_picture": "Changer la photo",
-        "personal_information": "Informations personnelles",
-        "personal_information_description": "Modifiez vos informations personnelles.",
-        "profile_updated": "Profil mis à jour",
-        "profile_updated_description": "Votre profil a été mis à jour avec succès.",
-        "profile_photo_updated": "Photo de profil mise à jour",
-        "profile_photo_updated_description": "Votre photo de profil a été mise à jour avec succès."
+        "your_profile": "Jouw profiel",
+        "logout": "Verbreek de verbinding",
+        "your_profile_description": "Bekijk en bewerk uw profielgegevens.",
+        "about_description": "Voer een beschrijving over uzelf in.",
+        "photo": "Foto",
+        "change_picture": "Foto wijzigen",
+        "personal_information": "Persoonlijke informatie",
+        "personal_information_description": "Bewerk uw persoonlijke gegevens.",
+        "profile_updated": "Bijgewerkt profiel",
+        "profile_updated_description": "Uw profiel is succesvol bijgewerkt.",
+        "profile_photo_updated": "Bijgewerkte profielfoto",
+        "profile_photo_updated_description": "Je profielfoto is succesvol bijgewerkt."
     },
-    "first_name": "Prénom",
-    "last_name": "Nom",
-    "email_address": "Adresse e-mail",
-    "country": "Pays",
-    "street_address": "Adresse",
-    "city": "Ville",
-    "zip_code": "Code postal",
-    "state": "Province",
-    "cancel": "Annuler",
-    "save": "Enregistrer"
+    "first_name": "Voornaam",
+    "last_name": "Naam",
+    "email_address": "E-mailadres",
+    "country": "Land",
+    "street_address": "Adres",
+    "city": "Stad",
+    "zip_code": "Postcode",
+    "state": "Provincie",
+    "cancel": "Annuleren",
+    "save": "Redden"
 }
