@@ -26,7 +26,7 @@
         "or_continue_with": "Or continue with",
         "invalid_credentials": "The credentials provided are incorrect.",
         "error": "Error while connecting",
-        "loading": "Connexion en cours..."
+        "loading": "Connection..."
     },
     "placeholders": {
         "email": "Email",
@@ -36,14 +36,14 @@
         "developers_on_platform": "Developers on platform",
         "projects_completed": "Projects completed",
         "happy_clients": "Happy clients",
-        "hours_worked": "Heures travaillées"
+        "hours_worked": "Working hours"
     },
     "admin": {
         "navigation": {
             "dashboard": "Dashboard",
             "discover": "Discover"
         },
-        "open": "Ouvrir",
+        "open": "Open",
         "last_days": "These last days",
         "stats": {
             "projects": "Projects",
@@ -59,27 +59,27 @@
         "edit": "Edit",
         "title": "Title",
         "discover_project_of_your_clients": "Discover your clients' projects",
-        "your_profile": "Votre profil",
-        "logout": "Déconnexion",
-        "your_profile_description": "Voyez et modifiez les informations de votre profil.",
-        "about_description": "Entrez une description à propos de vous.",
+        "your_profile": "Your profile",
+        "logout": "Logout",
+        "your_profile_description": "View and edit your profile information.",
+        "about_description": "Enter and edit your profile information.",
         "photo": "Photo",
-        "change_picture": "Changer la photo",
-        "personal_information": "Informations personnelles",
-        "personal_information_description": "Modifiez vos informations personnelles.",
-        "profile_updated": "Profil mis à jour",
-        "profile_updated_description": "Votre profil a été mis à jour avec succès.",
-        "profile_photo_updated": "Photo de profil mise à jour",
-        "profile_photo_updated_description": "Votre photo de profil a été mise à jour avec succès."
+        "change_picture": "Change picture",
+        "personal_information": "Personal information",
+        "personal_information_description": "Edit your personal information.",
+        "profile_updated": "Profile updated.",
+        "profile_updated_description": "Your profile has been successfully updated.",
+        "profile_photo_updated": "Profile photo updated",
+        "profile_photo_updated_description": "Your profile picture has been successfully updated."
     },
-    "first_name": "Prénom",
-    "last_name": "Nom",
-    "email_address": "Adresse e-mail",
-    "country": "Pays",
-    "street_address": "Adresse",
-    "city": "Ville",
-    "zip_code": "Code postal",
-    "state": "Province",
-    "cancel": "Annuler",
-    "save": "Enregistrer"
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email_address": "Email address",
+    "country": "Country",
+    "street_address": "Address",
+    "city": "City",
+    "zip_code": "Zip code",
+    "state": "State ",
+    "cancel": "Cancel",
+    "save": "Save"
 }
