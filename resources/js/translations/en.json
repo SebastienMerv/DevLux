@@ -68,7 +68,9 @@
         "personal_information": "Informations personnelles",
         "personal_information_description": "Modifiez vos informations personnelles.",
         "profile_updated": "Profil mis à jour",
-        "profile_updated_description": "Votre profil a été mis à jour avec succès."
+        "profile_updated_description": "Votre profil a été mis à jour avec succès.",
+        "profile_photo_updated": "Photo de profil mise à jour",
+        "profile_photo_updated_description": "Votre photo de profil a été mise à jour avec succès."
     },
     "first_name": "Prénom",
     "last_name": "Nom",
