@@ -60,4 +60,18 @@ class AuthController extends Controller
 
         return response()->json($user);
     }
+
+    public function updateProfilePhoto(Request $request)
+    {
+        $validated = $request->validate([
+            'profile_photo' => 'required|image',
+        ]);
+
+        $user = auth()->user();
+        // Store the profile photo in the storage/app/public/profile-photos directory
+        $validated['profile_photo_path'] = $validated['profile_photo']->store('profile-photos', 'public');
+        $user->update($validated);
+
+        return response()->json($user);
+    }
 }

@@ -21,9 +21,11 @@
                         <div class="col-span-full">
                             <label for="photo" class="block text-sm/6 font-medium text-gray-900">{{ $t('admin.photo') }}</label>
                             <div class="mt-2 flex items-center gap-x-3">
-                                <UserCircleIcon class="h-12 w-12 text-gray-300" aria-hidden="true" />
-                                <button type="button" class="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
-                                    {{$t('admin.change_picture')}}</button>
+                                <UserCircleIcon class="h-12 w-12 text-gray-300" aria-hidden="true" v-if="!user.profile_photo_path" />
+                                <img v-else :src="user.profile_photo_path" alt="Profile picture" class="object-cover h-12 w-12 rounded-full" />
+                                <label for="file" class="cursor-pointer rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+                                    {{$t('admin.change_picture')}}</label>
+                                <input type="file" id="file" name="file" class="hidden" accept="image/*" v-on:change="updateProfilePicture($event)" />
                             </div>
                         </div>
 
@@ -138,7 +140,8 @@ async function updateMe() {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${localStorage.getItem('token')}`
+            'Authorization': `Bearer ${localStorage.getItem('token')}`,
+            'Accept': 'application/json'
         },
         body: JSON.stringify(user)
     })
@@ -154,4 +157,33 @@ async function updateMe() {
         })
     }
 }
+
+async function updateProfilePicture(event) {
+    const file = event.target.files[0];
+    const formData = new FormData();
+    formData.append('profile_photo', file);
+
+    const response = await fetch('/api/auth/profile-photo', {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer ${localStorage.getItem('token')}`,
+            'Accept': 'application/json',
+        },
+        body: formData
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+        notificationStore.showNotification({
+            title: t('admin.profile_photo_updated'),
+            description: t('admin.profile_photo_updated_description'),
+            type: 'success'
+        });
+
+        localStorage.setItem('user', JSON.stringify(data));
+        user.value = data;
+    }
+}
+
 </script>

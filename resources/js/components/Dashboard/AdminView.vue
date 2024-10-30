@@ -134,10 +134,13 @@
                         <Menu as="div" class="relative">
                             <MenuButton class="-m-1.5 flex items-center p-1.5">
                                 <span class="sr-only">Open user menu</span>
-                                <img v-if="user.profile_photo_path" class="h-8 w-8 rounded-full bg-gray-50"
-                                     :src="user.profile_photo_path" alt=""/>
+                                <img v-if="user.profile_photo_path"
+                                     class="h-8 w-8 rounded-full object-cover bg-gray-50"
+                                     :src="user.profile_photo_path"
+                                     alt="Profile Photo"/>
+
                                 <span v-else
-                                      class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-500">
+                                      class=" inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-500">
     <span class="text-sm font-medium text-white">{{ user.firstName[0] }}{{user.lastName[0]}}</span>
   </span>
                                 <span class="hidden lg:flex lg:items-center">
