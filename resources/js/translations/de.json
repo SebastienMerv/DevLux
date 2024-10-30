@@ -25,7 +25,8 @@
         "login": "Einloggen",
         "or_continue_with": "Oder fahren Sie fort mit",
         "invalid_credentials": "Die angegebenen Anmeldeinformationen sind falsch.",
-        "error": "Fehler beim Verbinden"
+        "error": "Fehler beim Verbinden",
+        "loading": "Verbindung läuft..."
     },
     "placeholders": {
         "email": "E-Mail-Adresse",
@@ -34,27 +35,51 @@
     "stats": {
         "developers_on_platform": "Entwickler auf der Plattform",
         "projects_completed": "Abgeschlossene Projekte",
-        "happy_clients": "Zufriedene Kunden"
+        "happy_clients": "Zufriedene Kunden",
+        "hours_worked": "Arbeitsstunden"
     },
     "admin": {
         "navigation": {
-            "dashboard": "Tableau de bord",
-            "discover": "Découvrir"
+            "dashboard": "Armaturenbrett",
+            "discover": "entdecken"
         },
-        "last_days": "{days} derniers jours",
+        "open": "Offen",
+        "last_days": "{jours} Letzte Tage",
         "stats": {
-            "projects": "Projets",
-            "euro_earned": "Euros gagnés",
-            "clients": "Clients",
-            "tasks": "Tâches"
+            "projects": "Projekte",
+            "euro_earned": "Euro gewonnen",
+            "clients": "Kunden",
+            "tasks": "Aufgaben"
         },
-        "projects": "Projets",
-        "projects_description": "Voyez la liste de vos projets pour vos clients.",
-        "name": "Nom",
-        "client": "Client",
-        "status": "Statut",
-        "edit": "Modifier",
-        "title": "Titre",
-        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
-    }
+        "projects": "Projekte",
+        "projects_description": "Sehen Sie sich die Liste Ihrer Projekte für Ihre Kunden an.",
+        "name": "Name",
+        "client": "Kunde",
+        "status": "Status",
+        "edit": "Zu ändern",
+        "title": "Titel",
+        "discover_project_of_your_clients": "Entdecken Sie die Projekte Ihrer Kunden",
+        "your_profile": "Ihr Profil",
+        "logout": "Trennung",
+        "your_profile_description": "Sehen Sie sich Ihre Profilinformationen an und bearbeiten Sie sie.",
+        "about_description": "Geben Sie eine Beschreibung Ihrer Person ein.",
+        "photo": "Foto",
+        "change_picture": "Foto ändern",
+        "personal_information": "Persönliche Informationen",
+        "personal_information_description": "Bearbeiten Sie Ihre persönlichen Daten.",
+        "profile_updated": "Aktualisiertes Profil",
+        "profile_updated_description": "Ihr Profil wurde erfolgreich aktualisiert.",
+        "profile_photo_updated": "Aktualisiertes Profilbild",
+        "profile_photo_updated_description": "Ihr Profilbild wurde erfolgreich aktualisiert."
+    },
+    "first_name": "Vorname",
+    "last_name": "Name",
+    "email_address": "E-Mail-Adresse",
+    "country": "Land",
+    "street_address": "Adresse",
+    "city": "Stadt",
+    "zip_code": "Postleitzahl",
+    "state": "Provinz",
+    "cancel": "Stornieren",
+    "save": "Speichern"
 }

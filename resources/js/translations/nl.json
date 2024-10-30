@@ -25,7 +25,8 @@
         "login": "Inloggen",
         "or_continue_with": "Of ga verder met",
         "invalid_credentials": "De opgegeven inloggegevens zijn onjuist.",
-        "error": "Fout bij verbinden"
+        "error": "Fout bij verbinden",
+        "loading": "Verbinding wordt uitgevoerd..."
     },
     "placeholders": {
         "email": "E-mailadres",
@@ -34,27 +35,51 @@
     "stats": {
         "developers_on_platform": "Ontwikkelaars op het platform",
         "projects_completed": "Voltooide projecten",
-        "happy_clients": "Tevreden klanten"
+        "happy_clients": "Tevreden klanten",
+        "hours_worked": "Uren gewerkt"
     },
     "admin": {
         "navigation": {
-            "dashboard": "Tableau de bord",
-            "discover": "Découvrir"
+            "dashboard": "Dashboard",
+            "discover": "Dashboard"
         },
-        "last_days": "{days} derniers jours",
+        "open": "Open",
+        "last_days": "{days} laatste dagen",
         "stats": {
-            "projects": "Projets",
-            "euro_earned": "Euros gagnés",
-            "clients": "Clients",
-            "tasks": "Tâches"
+            "projects": "Projecten",
+            "euro_earned": "Euro gewonnen",
+            "clients": "Klanten",
+            "tasks": "Taken"
         },
-        "projects": "Projets",
-        "projects_description": "Voyez la liste de vos projets pour vos clients.",
-        "name": "Nom",
-        "client": "Client",
-        "status": "Statut",
-        "edit": "Modifier",
-        "title": "Titre",
-        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
-    }
+        "projects": "Projecten",
+        "projects_description": "Bekijk de lijst met uw projecten voor uw klanten.",
+        "name": "Naam",
+        "client": "Klant",
+        "status": "Status",
+        "edit": "Wijzigen",
+        "title": "Titel",
+        "discover_project_of_your_clients": "Ontdek de projecten van uw klanten",
+        "your_profile": "Jouw profiel",
+        "logout": "Verbreek de verbinding",
+        "your_profile_description": "Bekijk en bewerk uw profielgegevens.",
+        "about_description": "Voer een beschrijving over uzelf in.",
+        "photo": "Foto",
+        "change_picture": "Foto wijzigen",
+        "personal_information": "Persoonlijke informatie",
+        "personal_information_description": "Bewerk uw persoonlijke gegevens.",
+        "profile_updated": "Bijgewerkt profiel",
+        "profile_updated_description": "Uw profiel is succesvol bijgewerkt.",
+        "profile_photo_updated": "Bijgewerkte profielfoto",
+        "profile_photo_updated_description": "Je profielfoto is succesvol bijgewerkt."
+    },
+    "first_name": "Voornaam",
+    "last_name": "Naam",
+    "email_address": "E-mailadres",
+    "country": "Land",
+    "street_address": "Adres",
+    "city": "Stad",
+    "zip_code": "Postcode",
+    "state": "Provincie",
+    "cancel": "Annuleren",
+    "save": "Redden"
 }

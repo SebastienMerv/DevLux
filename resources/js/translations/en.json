@@ -25,7 +25,8 @@
         "login": "Login",
         "or_continue_with": "Or continue with",
         "invalid_credentials": "The credentials provided are incorrect.",
-        "error": "Error while connecting"
+        "error": "Error while connecting",
+        "loading": "Connection..."
     },
     "placeholders": {
         "email": "Email",
@@ -34,27 +35,51 @@
     "stats": {
         "developers_on_platform": "Developers on platform",
         "projects_completed": "Projects completed",
-        "happy_clients": "Happy clients"
+        "happy_clients": "Happy clients",
+        "hours_worked": "Working hours"
     },
     "admin": {
         "navigation": {
-            "dashboard": "Tableau de bord",
-            "discover": "Découvrir"
+            "dashboard": "Dashboard",
+            "discover": "Discover"
         },
-        "last_days": "{days} derniers jours",
+        "open": "Open",
+        "last_days": "These last days",
         "stats": {
-            "projects": "Projets",
-            "euro_earned": "Euros gagnés",
-            "clients": "Clients",
-            "tasks": "Tâches"
+            "projects": "Projects",
+            "euro_earned": "Euros earned",
+            "clients": "Customers",
+            "tasks": "tasks"
         },
-        "projects": "Projets",
-        "projects_description": "Voyez la liste de vos projets pour vos clients.",
-        "name": "Nom",
-        "client": "Client",
-        "status": "Statut",
-        "edit": "Modifier",
-        "title": "Titre",
-        "discover_project_of_your_clients": "Découvrez les projets de vos clients"
-    }
+        "projects": "Projects",
+        "projects_description": "See the list of your projects for your clients.",
+        "name": "Name",
+        "client": "Customer",
+        "status": "Status",
+        "edit": "Edit",
+        "title": "Title",
+        "discover_project_of_your_clients": "Discover your clients' projects",
+        "your_profile": "Your profile",
+        "logout": "Logout",
+        "your_profile_description": "View and edit your profile information.",
+        "about_description": "Enter and edit your profile information.",
+        "photo": "Photo",
+        "change_picture": "Change picture",
+        "personal_information": "Personal information",
+        "personal_information_description": "Edit your personal information.",
+        "profile_updated": "Profile updated.",
+        "profile_updated_description": "Your profile has been successfully updated.",
+        "profile_photo_updated": "Profile photo updated",
+        "profile_photo_updated_description": "Your profile picture has been successfully updated."
+    },
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email_address": "Email address",
+    "country": "Country",
+    "street_address": "Address",
+    "city": "City",
+    "zip_code": "Zip code",
+    "state": "State ",
+    "cancel": "Cancel",
+    "save": "Save"
 }
