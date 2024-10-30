@@ -26,7 +26,7 @@
         "or_continue_with": "Oder fahren Sie fort mit",
         "invalid_credentials": "Die angegebenen Anmeldeinformationen sind falsch.",
         "error": "Fehler beim Verbinden",
-        "loading": "Connexion en cours..."
+        "loading": "Verbindung läuft..."
     },
     "placeholders": {
         "email": "E-Mail-Adresse",
@@ -36,14 +36,14 @@
         "developers_on_platform": "Entwickler auf der Plattform",
         "projects_completed": "Abgeschlossene Projekte",
         "happy_clients": "Zufriedene Kunden",
-        "hours_worked": "Heures travaillées"
+        "hours_worked": "Arbeitsstunden"
     },
     "admin": {
         "navigation": {
             "dashboard": "Armaturenbrett",
             "discover": "entdecken"
         },
-        "open": "Ouvrir",
+        "open": "Offen",
         "last_days": "{jours} Letzte Tage",
         "stats": {
             "projects": "Projekte",
@@ -59,8 +59,8 @@
         "edit": "Zu ändern",
         "title": "Titel",
         "discover_project_of_your_clients": "Entdecken Sie die Projekte Ihrer Kunden",
-        "your_profile": "Votre profil",
-        "logout": "Déconnexion",
+        "your_profile": "Ihr Profil",
+        "logout": "Trennung",
         "your_profile_description": "Voyez et modifiez les informations de votre profil.",
         "about_description": "Entrez une description à propos de vous.",
         "photo": "Photo",
