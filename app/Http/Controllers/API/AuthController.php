@@ -14,8 +14,7 @@ class AuthController extends Controller
                 'email' => 'required|email',
                 'password' => 'required',
             ]);
-        }
-        catch (\Illuminate\Validation\ValidationException $e) {
+        } catch (\Illuminate\Validation\ValidationException $e) {
             return response()->json([
                 'message' => 'The given data was invalid.',
                 'errors' => $e->errors(),
@@ -24,7 +23,7 @@ class AuthController extends Controller
 
         if (auth()->attempt($validated)) {
             $user = auth()->user();
-            $token = $user->createToken('authToken')->accessToken;
+            $token = $user->createToken('authToken')->plainTextToken;
 
             return response()->json([
                 'user' => $user,
@@ -35,5 +34,30 @@ class AuthController extends Controller
                 'message' => 'Unauthorized',
             ], 401);
         }
+    }
+
+    public function me()
+    {
+        return response()->json(auth()->user());
+    }
+
+    public function updateMe(Request $request)
+    {
+        $validated = $request->validate([
+            'firstName' => 'required',
+            'lastName' => 'required',
+            'email' => 'required|email',
+            'country' => 'nullable',
+            'city' => 'nullable',
+            'address' => 'nullable',
+            'postal_code' => 'nullable',
+            'state' => 'nullable',
+            'about' => 'nullable',
+        ]);
+
+        $user = auth()->user();
+        $user->update($validated);
+
+        return response()->json($user);
     }
 }
